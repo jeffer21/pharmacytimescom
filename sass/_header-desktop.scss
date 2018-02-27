@@ -1,4 +1,4 @@
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 901px){
 #mobile-menu{
 	display:none;
 }
@@ -277,6 +277,7 @@ hr{
 
 }
 .newsletter-form{
+	padding:20px;
 	.email-newsletter{
 		padding:10px;
 		width:40%;
@@ -286,6 +287,23 @@ hr{
 		background-color:$red;
 		color:$white;
 		border: solid 1px $dark-grey;
+	}
+}
+.ads{
+	margin-bottom: 20px;
+	img{
+		width:100%;
+	}
+
+}
+.twitter-feed{
+	font-size: .75em;
+	padding:0 0 10px 0;
+	td:first-child{
+		min-width:50px;
+	}
+	td{
+		padding:0 10px;
 	}
 }
 }
